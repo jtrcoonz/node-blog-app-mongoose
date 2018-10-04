@@ -12,7 +12,7 @@ const authorSchema = mongoose.Schema({
 	}
 });
 
-commentSchema = mongoose.Schema({ content: String });
+const commentSchema = mongoose.Schema({ content: String });
 
 const blogPostSchema = mongoose.Schema({
 	title: String,
